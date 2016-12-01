@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+	#ginapeirettilogo {width: 60vw;}
+	#sidebar { width: 90vw; margin: 0; }
+	#portfolio { padding: 0; }
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img {	width: 100%; }
+	#rig { margin-right: auto; }
+	#retrato { width: 40vw; }
+}
+@media (max-width: 640px) {
+	.rig-img {height: 100px;}
+	#logoWarapa { height: 50px; }
+
+}
