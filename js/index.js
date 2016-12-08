@@ -1,15 +1,3 @@
-$( document ).ready(function() {
-});
-
-$('.fancybox').fancybox({
-     helpers : {
-        title : {
-         type : 'inside'
-          },
-     },
-   });
-
-
 // CAROUSEL CLASS DEFINITION
 
   var Carousel = function (element, options) {
@@ -232,3 +220,23 @@ $('.fancybox').fancybox({
       Plugin.call($carousel, $carousel.data())
     })
   })
+
+
+
+    $('#myCarousel').carousel({
+      interval: 10000
+    });
+
+
+$( document ).ready(function() {
+});
+
+$('.fancybox').fancybox({
+     helpers : {
+        title : {
+         type : 'inside'
+          },
+     },
+   });
+
+
