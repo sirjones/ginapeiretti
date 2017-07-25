@@ -1,13 +1,29 @@
 @media (max-width: 768px) {
-	#ginapeirettilogo {width: 60vw;}
-	#sidebar { width: 90vw; margin: 0; }
+	#sidebar { width: 90vw; margin: auto; float: none}
 	#portfolio { padding: 0; }
-	.carousel-inner > .item > img, .carousel-inner > .item > a > img {	width: 100%; }
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img { width: 250%; margin-left: -50%; }
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img { max-width: none; }
 	#rig { margin-right: auto; }
-	#retrato { width: 40vw; }
+	#retrato { width: 90vw; }
+	.four-img, .three-img-h, .three-img-v { width: 100%; margin-left: 0; margin-right: 0; }
+	.vestuario, .ropa { max-width: 90%; margin: auto; padding: 5% 0;}
+	#sidebar { margin: 10% auto;}
+	.contImgV { max-width: 85%; }
+	#contacto { min-height: 100vh; }
+	.cont-contactBtn { width: 100%; height: 70vh;}
+	#contact-items { width: 100%; height: 20vh; }
+	.cont-contactBtn .cont-flip .front, .cont-contactBtn .cont-flip .back { padding: 20px; width: 100%; float: none; margin: auto;}
+	.sm-icon { margin: 0}
+	body { margin-top: 61px; }
+
 }
 @media (max-width: 640px) {
-	.rig-img {height: 100px;}
+	.rig { margin: auto}
+	.rig li { width: 100%}
+	.rig-img { width: 100%; height: auto; margin: auto;}
 	#logoWarapa { height: 50px; }
-
+	#myCarousel2 { height: auto; }
+	#vestuarios { height: auto; }
+	.navbar, #header { height: auto;}
+	.navbar-brand img { height: 40px; }
 }

@@ -1,140 +1,669 @@
 <!-- 
-    GinaPeiretti by ALMAMUT
-    Code and design: Sofía Chardin | ALMAMUT
+GinaPeiretti by ALMAMUT
+Code and design: Sofía Chardin | ALMAMUT
 -->
 
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Gina Peiretti | Artista textil</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://www.ginapeiretti.com/" rel="canonical">
-        <meta name="description" content="Arte textil independiente. Buenos Aires, Argentina.">
-        <meta name="keywords" content="arte textil, indumentaria, warapa, juguetes didácticos">
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/media.css">
-        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" property=""/>
-    </head>
 
-    <body>
-        <header id="header">    
-            <h1><img id="ginapeirettilogo" src="img/ginapeirettilogo.png"/></h1>
-            <h5 class="subtitle">ARTISTA TEXTIL</h5>
-        </header>
-        
-        <section id="frontCoverGallery">    
-            <div id="myCarousel" class="carousel fdi-Carousel slide">
-                <div class="carousel-inner onebyone-carosel">
+<head>
+    <title>Gina Peiretti | Artista textil</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://www.ginapeiretti.com/" rel="canonical">
+    <meta name="description" content="Arte textil independiente. Buenos Aires, Argentina.">
+    <meta name="keywords" content="arte textil, indumentaria, warapa, juguetes didácticos">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" property="" />
+</head>
 
-                    <div class="item active">
-                        <img src="img/warapa/warapa1.jpg" alt="Hoja 1">
-                        <p><span>warapa</span></p>
-                    </div>
-                    <div class="item">
-                        <img src="img/warapa/warapa5.jpg" alt="Hoja 2">
-                    </div>
-                    <div class="item">
-                        <img src="img/warapa/warapa7.jpg" alt="Hoja 2">
-                    </div>
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+<body>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img id="ginapeirettilogo" src="img/ginapeirettilogo.png" /></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#portfolio" rel="relativeanchor">Sobre mi</a></li>
+                                <li><a href="CV-GinaPeiretti.pdf" target="_blank">CV</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#portfolio" class="nav-button" rel="relativeanchor">Warapa</a></li>
+                        <li><a href="#vestuarios" class="nav-button" rel="relativeanchor">Vestuarios</a></li>
+                        <li><a href="#ki" class="nav-button" rel="relativeanchor">Ki indumentaria</a></li>
+                        <li><a href="#contacto" class="nav-button" rel="relativeanchor">Contacto</a></li>
+                    </ul>
                 </div>
             </div>
-        </section>
-        <section id="portfolio">
-            <article class="warapaGallery">
-                <aside id="sidebar">
-                        <ul>
-                            <li><img id="retrato" src="img/retrato.png"></li>
-                            <li><p>Nací y viví 2x años en Rosario.<br>
-                                Soy acróbata, artista textil y jardinera,<br>
-                                amante de las plantas y los animales.</p>
-                                <p>Hoy vivo en una pequeña jungla inmersa en Boedo (Buenos Aires)
-                                plantando jardines verticales,</p>
-                                <p>telando mundos, texturas y colores...</p></li>
-                            <li><b>¡Bienvenidos!</b></li>
-                            <li><img id="firma" src="img/firmaGina.png"></li>
-                        </ul>
-                </aside>
+        </nav>
 
-                <img id="logoWarapa" src="img/warapalogo.png"/>
-                <ul id="rig">
+    <section id="frontCoverGallery">
+        <div id="myCarousel" class="carousel fdi-Carousel slide">
+            <div class="carousel-inner onebyone-carosel">
+                <div class="item active">
+                    <img src="img/warapa/warapa001.jpg" alt="Hoja 1">
+                </div>
+                <div class="item">
+                    <img src="img/warapa/warapa002.jpg" alt="Hoja 2">
+                </div>
+                <div class="item">
+                    <img src="img/warapa/warapa003.jpg" alt="Hoja 3">
+                </div>
+                <div class="item">
+                    <img src="img/warapa/warapa004.jpg" alt="Hoja 4">
+                </div>
+                <div class="item">
+                    <img src="img/warapa/warapa005.jpg" alt="Hoja 5">
+                </div>
+                <div class="item">
+                    <img src="img/warapa/warapa006.jpg" alt="Hoja 6">
+                </div>
+                <div class="item">
+                    <img src="img/warapa/warapa007.jpg" alt="Hoja 7">
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <article class="warapaGallery">
+            <aside id="sidebar">
+                <ul>
+                    <li><img id="retrato" src="img/retrato.png"></li>
                     <li>
-                        <a class="rig-cell fancybox btn" rel="group1" href="img/warapa/warapa3.jpg">
-                            <img class="rig-img" src="img/warapa/warapa3.jpg">
-                            <span class="rig-overlay"></span>
-                            <span class="rig-text">pellentesque odio</span>
-                        </a>
+                        <p id="sidebarText">ARTISTA TEXTIL</p>
+                        <p>Boedo, Buenos Aires.</p>
+                        <p style="font-size:1.3em; line-height: 150%; padding:8%; text-align: left;">Sed vitae elit metus. Vestibulum porttitor malesuada elementum. 
+                        Donec dignissim tempus ex, ut elementum nunc iaculis ut. 
+                        Donec imperdiet rhoncus libero vitae rhoncus. <br>
+                        Nam arcu diam, hendrerit vitae lacinia at, laoreet non leo.  
+                        </p>
                     </li>
-                    <li>
-                        <a class="rig-cell fancybox btn" rel="group1" href="img/warapa/warapa4.jpg">
-                            <img class="rig-img" src="img/warapa/warapa4.jpg">
-                            <span class="rig-overlay"></span>
-                            <span class="rig-text">pellentesque odio</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="rig-cell fancybox btn" rel="group1" href="img/warapa/warapa5.jpg">
-                            <img class="rig-img" src="img/warapa/warapa5.jpg">
-                            <span class="rig-overlay"></span>
-                            <span class="rig-text">Nam euismod</span>
-                        </a>
-                    </li>
-                    <br>
-                    <li>
-                        <a class="rig-cell fancybox btn" rel="group1" href="img/warapa/warapa6.jpg">
-                            <img class="rig-img" src="img/warapa/warapa6.jpg">
-                            <span class="rig-overlay"></span>
-                            <span class="rig-text">Vestibulum ultricies</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="rig-cell fancybox fancybox.iframe" rel="group1" title="VideoWarapa" href="https://player.vimeo.com/video/51485646">
-                            <img class="rig-img" src="img/warapa/videowarapa.jpg"/>
-                            <span class="rig-overlay"></span>
-                            <span class="rig-text">quis interdum sapien</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="rig-cell fancybox btn" rel="group1" href="img/warapa/warapa8.jpg">
-                            <img class="rig-img" src="img/warapa/warapa8.jpg">
-                            <span class="rig-overlay"></span>
-                            <span class="rig-text">Maecenas vitae</span>
-                        </a>
-                    </li>                                      
-                        <div class="hidden">
-                             <a class="fancybox" rel="group1" title="" href="img/warapa/warapa9.jpg"></a>
-                             <a class="fancybox" rel="group1" title="" href="img/warapa/warapa10.jpg"></a>
-                             <a class="fancybox" rel="group1" href="img/warapa/warapa7.jpg"><img src="img/warapa/warapa7.png" alt=""/></a>
-                        </div>
                 </ul>
+            </aside>
 
-            </article>
-            
-            <article id="vestuarios">    
-            </article>
-            
-            <article id="niños">    
-            </article>
-        </section>
+            <img id="logoWarapa" src="img/warapalogo.png" />
+            <ul class="rig">
+                <li>
+                    <a class="rig-cell fancybox btn" rel="group1" href="img/warapa/warapa_03.jpg">
+                    <img class="rig-img" src="img/warapa/warapa_03.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text"><b>Teatro<br>Mandril</b></span>
+                </a>
+                </li>
+                <li>
+                    <a class="rig-cell fancybox btn" rel="group1" href="img/warapa/warapa007.jpg">
+                    <img class="rig-img" src="img/warapa/warapa007.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text"><b>Casa Brandon</b><br>Desfile</span>
+                </a>
+                </li>
+                <li>
+                    <a class="rig-cell fancybox btn" rel="group1" href="img/warapa/warapa_05.jpg">
+                    <img class="rig-img" src="img/warapa/warapa_05.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text"><b>Marilyn</b></span>
+                </a>
+                </li>
+                <br>
+                <li>
+                    <a class="rig-cell fancybox btn" rel="group1" href="img/warapa/warapa_06.jpg">
+                    <img class="rig-img" src="img/warapa/warapa_06.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text"><b>Strapless</b></span>
+                </a>
+                </li>
+                <li>
+                    <a class="rig-cell fancybox fancybox.iframe" rel="group1" title="VideoWarapa" href="https://player.vimeo.com/video/51485646">
+                    <img class="rig-img" src="img/warapa/videowarapa.jpg"/>
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text"><b>Cóctel de Paraguas</b><br>Presentación</span>
+                </a>
+                </li>
+                <li>
+                    <a class="rig-cell fancybox btn" rel="group1" href="img/warapa/warapa_01.jpg">
+                    <img class="rig-img" src="img/warapa/warapa_01.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text"><b>2 Partes</b></span>
+                </a>
+                </li>
+                <div class="hidden">
+                    <a class="fancybox" rel="group1" title="" href="img/warapa/warapa_02.jpg"></a>
+                    <a class="fancybox" rel="group1" title="" href="img/warapa/warapa_04.jpg"></a>
+                    <a class="fancybox" rel="group1" href="img/warapa/warapa_07.jpg"><img src="img/warapa/warapa_07.jpg" alt=""/></a>
+                </div>
+            </ul>
 
-        <footer id="contact"> 
-            <a href="mailto:gina.peiretti@gmail.com">gina.peiretti@gmail.com</a>
-            <a href="tel:+541163756513">+54 11 6375 6513</a>
+        </article>
+
+        <article id="vestuarios">
+            <div id="myCarousel2" class="carousel carousel2 fdi-Carousel slide animated">
+                <div class="carousel-inner carousel-inner2 onebyone-carosel onebyone-carosel2">
+
+                    <div class="item active">
+                        <div class="vestuario">
+                            <h3>Memorias de una Alcahueta</h3>
+                            <p>2015</p>
+                            <ul class="contImgV rig">
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group2" href="img/vestuarios/alcahueta001.jpg">
+                                    <img class="rig-img" src="img/vestuarios/alcahueta001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Memorias de una Alcahueta 01</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group2" href="img/vestuarios/alcahueta002.jpg">
+                                    <img class="rig-img" src="img/vestuarios/alcahueta002.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Memorias de una Alcahueta 01</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group2" href="img/vestuarios/alcahueta003.jpg">
+                                    <img class="rig-img" src="img/vestuarios/alcahueta003.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Memorias de una Alcahueta 01</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group2" href="img/vestuarios/alcahueta004.jpg">
+                                    <img class="rig-img" src="img/vestuarios/alcahueta004.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Memorias de una Alcahueta 01</b></span>
+                                </a>
+                                </li>
+                                <div class="hidden">
+                                    <a class="fancybox" rel="group2" title="" href="img/vestuarios/alcahueta005.jpg"></a>
+                                    <a class="fancybox" rel="group2" title="" href="img/vestuarios/alcahueta006.jpg"></a>
+                                </div>                        
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="vestuario">
+                            <h3>Las hermanas del idiota</h3>
+                            <p>Bla bla bla balbalal bas bla.</p>
+                            <ul class="contImgV rig">
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-v" rel="group3" href="img/vestuarios/hermanas004.jpg">
+                                    <img class="rig-img" src="img/vestuarios/hermanas004.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Hermanas del Idiota 01</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-h" rel="group3" href="img/vestuarios/hermanas001.jpg">
+                                    <img class="rig-img" src="img/vestuarios/hermanas001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Hermanas del Idiota 02</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-h" rel="group3" href="img/vestuarios/hermanas002.jpg">
+                                    <img class="rig-img" src="img/vestuarios/hermanas002.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Hermanas del Idiota 03</b></span>
+                                </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="vestuario">
+                            <h3>Una noche en el castillo (trilogía)</h3>
+                            <p>Bla bla bla balbalal bas bla.</p>
+                            <ul class="contImgV rig">
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group4" href="img/vestuarios/castillo001.jpg">
+                                    <img class="rig-img" src="img/vestuarios/castillo001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Castillo 01</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group4" href="img/vestuarios/castillo002.jpg">
+                                    <img class="rig-img" src="img/vestuarios/castillo002.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Castillo 02</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group4" href="img/vestuarios/castillo003.jpg">
+                                    <img class="rig-img" src="img/vestuarios/castillo003.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Castillo 03</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group4" href="img/vestuarios/castillo004.jpg">
+                                    <img class="rig-img" src="img/vestuarios/castillo004.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Castillo 04</b></span>
+                                </a>
+                                </li>
+                                <div class="hidden">
+                                    <a class="fancybox" rel="group4" title="" href="img/vestuarios/castillo005.jpg"></a>
+                                    <a class="fancybox" rel="group4" title="" href="img/vestuarios/castillo006.jpg"></a>
+                                    <a class="fancybox" rel="group4" title="" href="img/vestuarios/castillo007.jpg"></a>
+                                    <a class="fancybox" rel="group4" title="" href="img/vestuarios/castillo008.jpg"></a>
+                                    <a class="fancybox" rel="group4" title="" href="img/vestuarios/castillo009.jpg"></a>
+                                    <a class="fancybox" rel="group4" title="" href="img/vestuarios/castillo010.jpg"></a>
+                                    <a class="fancybox" rel="group4" title="" href="img/vestuarios/castillo011.jpg"></a>
+                                    <a class="fancybox" rel="group4" title="" href="img/vestuarios/castillo012.jpg"></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="vestuario">
+                            <h3>Antígona, tremenda trágica tragedia.</h3>
+                            <p>Bla bla bla balbalal bas bla.</p>
+                            <div class="contImgV rig">
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-v" rel="group5" href="img/vestuarios/antigona001.jpg">
+                                    <img class="rig-img" src="img/vestuarios/antigona001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Antigona 01</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-h" rel="group5" href="img/vestuarios/antigona005.jpg">
+                                    <img class="rig-img" src="img/vestuarios/antigona005.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Antigona 02</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-h" rel="group5" href="img/vestuarios/antigona006.jpg">
+                                    <img class="rig-img" src="img/vestuarios/antigona006.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Antigona 03</b></span>
+                                </a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="vestuario">
+                            <h3>HP</h3>
+                            <p>Bla bla bla balbalal bas bla.</p>
+                            <ul class="contImgV rig">
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-v" rel="group6" href="img/vestuarios/hp001.jpg">
+                                    <img class="rig-img" src="img/vestuarios/hp001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>HP 01</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-h" rel="group6" href="img/vestuarios/hp004.jpg">
+                                    <img class="rig-img" src="img/vestuarios/hp004.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>HP 01</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-h" rel="group6" href="img/vestuarios/hp003.jpg">
+                                    <img class="rig-img" src="img/vestuarios/hp003.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>HP 01</b></span>
+                                </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="vestuario">
+                            <h3>Acróbatas, bailarines y actores.</h3>
+                            <p></p>
+                            <ul class="contImgV rig">
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group11" href="img/vestuarios/acro001.jpg">
+                                    <img class="rig-img" src="img/vestuarios/acro001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Acróbatas</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group11" href="img/vestuarios/acro011.jpg">
+                                    <img class="rig-img" src="img/vestuarios/acro011.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Bailarines</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group11" href="img/vestuarios/acro013.jpg">
+                                    <img class="rig-img" src="img/vestuarios/acro013.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Actores</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group11" href="img/vestuarios/acro006.jpg">
+                                    <img class="rig-img" src="img/vestuarios/acro006.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Más</b></span>
+                                </a>
+                                </li>
+                                <div class="hidden">
+                                    <a class="fancybox" rel="group11" title="" href="img/vestuarios/acro002.jpg"></a>
+                                    <a class="fancybox" rel="group11" title="" href="img/vestuarios/acro003.jpg"></a>
+                                    <a class="fancybox" rel="group11" title="" href="img/vestuarios/acro004.jpg"></a>
+                                    <a class="fancybox" rel="group11" title="" href="img/vestuarios/acro005.jpg"></a>
+                                    <a class="fancybox" rel="group11" title="" href="img/vestuarios/acro010.jpg"></a>
+                                    <a class="fancybox" rel="group11" title="" href="img/vestuarios/acro007.jpg"></a>
+                                    <a class="fancybox" rel="group11" title="" href="img/vestuarios/acro008.jpg"></a>
+                                    <a class="fancybox" rel="group11" title="" href="img/vestuarios/acro009.jpg"></a>
+                                    <a class="fancybox" rel="group11" title="" href="img/vestuarios/acro012.jpg"></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="vestuario">
+                            <h3>D de Deseo</h3>
+                            <p>De Melina Martín (2008)</p>
+                            <ul class="contImgV rig">
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group12" href="img/vestuarios/DdeDeseo001.jpg">
+                                    <img class="rig-img" src="img/vestuarios/DdeDeseo001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b></b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group12" href="img/vestuarios/DdeDeseo002.jpg">
+                                    <img class="rig-img" src="img/vestuarios/DdeDeseo002.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b></b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group12" href="img/vestuarios/DdeDeseo003.jpg">
+                                    <img class="rig-img" src="img/vestuarios/DdeDeseo003.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b></b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group12" href="img/vestuarios/DdeDeseo004.jpg">
+                                    <img class="rig-img" src="img/vestuarios/DdeDeseo004.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b></b></span>
+                                </a>
+                                </li>
+                                <div class="hidden">
+                                    <a class="fancybox" rel="group12" title="" href="img/vestuarios/DdeDeseo005.jpg"></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="vestuario">
+                            <h3>Desfiles Warapa</h3>
+                            <p>Desfiles de la colección Warapa, vestite con paraguas.</p>
+                            <ul class="contImgV rig">
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group16" href="img/warapa/warapaDesfile002-1.jpg">
+                                    <img class="rig-img" src="img/warapa/warapaDesfile002-1.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Warapa + Inclan Funk + <br>LAS HERMANAS DEL IDIOTA +<br> artistas del Teatro Mandril</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group15" href="img/warapa/warapaDesfile001-1.jpg">
+                                    <img class="rig-img" src="img/warapa/warapaDesfile001-1.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Casa Brandon</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group17" href="img/warapa/warapaDesfile003-1.jpg">
+                                    <img class="rig-img" src="img/warapa/warapaDesfile003-1.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Warapa + Inclan Funk<br>+ artistas del Teatro Mandril</b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group18" href="img/warapa/warapaDesfile004-1.jpg">
+                                    <img class="rig-img" src="img/warapa/warapaDesfile004-1.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Casa Brandon II</b></span>
+                                </a>
+                                </li>
+                                <div class="hidden">
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-2.jpg"></a>
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-3.jpg"></a>
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-4.jpg"></a>
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-5.jpg"></a>
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-6.jpg"></a>
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-7.jpg"></a>
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-8.jpg"></a>
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-9.jpg"></a>
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-10.jpg"></a>
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-11.jpg"></a>
+                                    <a class="fancybox" rel="group15" title="" href="img/warapa/warapaDesfile001-12.jpg"></a>
+                                </div>
+                                <div class="hidden">
+                                    <a class="fancybox" rel="group16" title="" href="img/warapa/warapaDesfile002-2.jpg"></a>
+                                    <a class="fancybox" rel="group16" title="" href="img/warapa/warapaDesfile002-3.jpg"></a>
+                                    <a class="fancybox" rel="group16" title="" href="img/warapa/warapaDesfile002-4.jpg"></a>
+                                    <a class="fancybox" rel="group16" title="" href="img/warapa/warapaDesfile002-5.jpg"></a>
+                                    <a class="fancybox" rel="group16" title="" href="img/warapa/warapaDesfile002-6.jpg"></a>
+                                </div>
+                                <div class="hidden">
+                                    <a class="fancybox" rel="group17" title="" href="img/warapa/warapaDesfile003-2.jpg"></a>
+                                    <a class="fancybox" rel="group17" title="" href="img/warapa/warapaDesfile003-3.jpg"></a>
+                                    <a class="fancybox" rel="group17" title="" href="img/warapa/warapaDesfile003-4.jpg"></a>
+                                </div>
+                                <div class="hidden">
+                                    <a class="fancybox" rel="group18" title="" href="img/warapa/warapaDesfile004-2.jpg"></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="vestuario">
+                            <h3>Eva Perón Resucitada</h3>
+                            <p>Escrita y dirigida por Vicente Zito Lema (2016)</p>
+                            <ul class="contImgV rig">
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-v" rel="group13" href="img/vestuarios/evaResucitada001.jpg">
+                                    <img class="rig-img" src="img/vestuarios/evaResucitada001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b></b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-h" rel="group13" href="img/vestuarios/evaResucitada002.jpg">
+                                    <img class="rig-img" src="img/vestuarios/evaResucitada002.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b></b></span>
+                                </a>
+                                </li>
+                                <li>
+                                <a class="rig-cell fancybox btn three-img-h" rel="group13" href="img/vestuarios/evaResucitada003.jpg">
+                                    <img class="rig-img" src="img/vestuarios/evaResucitada003.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b></b></span>
+                                </a>
+                                </li>
+                                <div class="hidden">
+                                    <a class="fancybox" rel="group13" title="" href="img/vestuarios/evaResucitada004.jpg"></a>
+                                    <a class="fancybox" rel="group13" title="" href="img/vestuarios/evaResucitada005.jpg"></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+                </a><a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+                </a>
+            
+                </div>
+                </article>
+
+                <article id="ki">
+
+                    <div class="ropa">
+                        <h3><b>Ki</b> indumentaria</h3>
+                        <p>Ropa, juguetes y objetos textiles para toda la familia.</p>
+                        <ul class="contImgV rig">
+                            <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group7" href="img/ropa/invierno001.jpg">
+                                    <img class="rig-img" src="img/ropa/invierno001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Invierno</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group8" href="img/ropa/pantalon001.jpg">
+                                    <img class="rig-img" src="img/ropa/pantalon001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Pantalones</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group9" href="img/ropa/calzas001.jpg">
+                                    <img class="rig-img" src="img/ropa/calzas001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Calzas</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="rig-cell fancybox btn four-img" rel="group10" href="img/ninos/juguete001.jpg">
+                                    <img class="rig-img" src="img/ninos/juguete001.jpg">
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text"><b>Niños</b></span>
+                                </a>
+                            </li>
+                            <div class="hidden">
+                                <a class="fancybox" rel="group7" title="" href="img/ropa/invierno002.jpg"></a>
+                                <a class="fancybox" rel="group7" title="" href="img/ropa/invierno003.jpg"></a>
+                                <a class="fancybox" rel="group7" title="" href="img/ropa/invierno004.jpg"></a>
+                                <a class="fancybox" rel="group7" title="" href="img/ropa/invierno005.jpg"></a>
+                                <a class="fancybox" rel="group7" title="" href="img/ropa/invierno006.jpg"></a>
+                                <a class="fancybox" rel="group7" title="" href="img/ropa/invierno007.jpg"></a>
+                            </div>
+                            <div class="hidden">
+                                <a class="fancybox" rel="group8" title="" href="img/ropa/pantalon002.jpg"></a>
+                                <a class="fancybox" rel="group8" title="" href="img/ropa/pantalon003.jpg"></a>
+                            </div>
+                            <div class="hidden">
+                                <a class="fancybox" rel="group9" title="" href="img/ropa/calzas002.jpg"></a>
+                                <a class="fancybox" rel="group9" title="" href="img/ropa/calzas003.jpg"></a>
+                                <a class="fancybox" rel="group9" title="" href="img/ropa/calzas004.jpg"></a>
+                                <a class="fancybox" rel="group9" title="" href="img/ropa/calzas005.jpg"></a>
+                            </div>
+                            <div class="hidden">
+                                <a class="fancybox" rel="group10" title="" href="img/ninos/juguete002.jpg"></a>
+                                <a class="fancybox" rel="group10" title="" href="img/ninos/juguete003.jpg"></a>
+                                <a class="fancybox" rel="group10" title="" href="img/ninos/juguete004.jpg"></a>
+                                <a class="fancybox" rel="group10" title="" href="img/ninos/juguete005.jpg"></a>
+                                <a class="fancybox" rel="group10" title="" href="img/ninos/juguete006.jpg"></a>
+                                <a class="fancybox" rel="group10" title="" href="img/ninos/juguete007.jpg"></a>
+                                <a class="fancybox" rel="group10" title="" href="img/ninos/juguete008.jpg"></a>
+                                <a class="fancybox" rel="group10" title="" href="img/ninos/juguete009.jpg"></a>
+                                <a class="fancybox" rel="group10" title="" href="img/ninos/juguete010.jpg"></a>
+                                <a class="fancybox" rel="group10" title="" href="img/ninos/juguete011.jpg"></a>
+                            </div>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+            
+    <footer id="contacto">
+        <div class="contact-box row cont-contactBtn" style="line-height: 0%;">
+            <form name="sentMessage" id="contactForm" novalidate>
+                <div class="cont-flip">
+                    <div class="front">
+                        <a href="#" class="btn-cf btn-white flip">Escribir mensaje</a>
+                    </div>
+                    <div class="back">
+                        <a href="#" class="flip close"></a>
+                        <form class="contact-form back" action="">
+                            <div class="row control-group" style="padding-top: 10%;">
+                                <div class="form-group floating-label-form-group controls">
+                                    <input type="text" class="gutter" placeholder="Nombre" id="name" required data-validation-required-message="Por favor, escribe tu nombre.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="row control-group">
+                                <div class="form-group floating-label-form-group controls">
+                                    <input type="text" class="gutter" placeholder="Email" id="email" required data-validation-required-message="Por favor, escribe tu email.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="row control-group">
+                                <div class="form-group floating-label-form-group controls">
+                                    <textarea rows="5" class="gutter" style="line-height: 1;" placeholder="Mensaje" id="message" required data-validation-required-message="Por favor, escribe tu mensaje."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+
+                            <div id="success"></div>
+                            <div class="row">
+                                <div id="spam-advice" class="row">
+                                    <p></p>
+                                </div>
+                                <div class="">
+                                    <input id="btnSubmit" class="btn btn-lg" type="submit" value="Send">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <section id="contact-items">
             <ul class="socialmedia list-inline">
                 <li class="sm-icon"><a class="facebook btn" href="https://www.facebook.com/ginapeiretti/" target="_blank"></a></li>
-                <li class="sm-icon button"><a class="tumblr btn" href="http://nachissimo.tumblr.com/" target="_blank"></a></li>
-                <li class="sm-icon"><a class="instagram btn" href="https://www.instagram.com/nachissimo" target="_blank"></a></li>                       
+                <li class="sm-icon button"><a class="twitter btn" href="https://twitter.com/GinaPeiretti/" target="_blank"></a></li>
+                <li class="sm-icon"><a class="instagram btn" href="https://www.instagram.com/ginapeiretti.at/" target="_blank"></a></li>
+                <li class="sm-icon"><a class="mail btn" href="mailto:gina.peiretti@gmail.com" target="_blank"></a></li>
+                <li class="sm-icon"><a class="phone btn" href="tel:+541163756513" target="_blank"></a></li>
             </ul>
-        </footer>
-        
+        </section>
+    </footer>
 
-        <script src="js/jquery.js"></script>  
-        <script src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
-        <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
 </html>
